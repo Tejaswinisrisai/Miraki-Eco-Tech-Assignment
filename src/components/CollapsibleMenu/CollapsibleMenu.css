@@ -1,8 +1,7 @@
 .collapsible-menu {
-    width: 80px; /* Adjust the width as needed */
+    width: 80px;
     height: 90%;
     position: fixed;
-    /* top: 50px; Adjust the top position to account for the navbar */
     left: 0;
     background-color: #4c0491;
     overflow-x: hidden;
@@ -10,12 +9,11 @@
     flex-direction: column;
     align-items: center;
     transition: width 0.3s;
-    padding-top: 10px; /* Add padding to the top */
+    padding-top: 10px;
   }
   
   .collapsible-menu:hover {
-    width: auto; /* Expand the menu width on hover to fit content */
-
+    width: auto;
     && a .menu-label{
         display: block;
     }
@@ -24,14 +22,14 @@
   .collapsible-menu a {
     text-decoration: none;
     color: white;
-    padding: 20px 20px; /* Adjust padding as needed */
+    padding: 20px 20px; 
     display: flex;
     align-items: center;
     width: 100%;
   }
   
   .collapsible-menu a .menu-label {
-    margin-left: 10px; /* Add margin between icon and label */
+    margin-left: 10px;
     display: none;
   }
   
