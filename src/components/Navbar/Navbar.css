@@ -1,0 +1,32 @@
+.menuitemsstl{
+    color: #7657ee;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+} 
+
+.menuempstl{
+    color: #7657ee;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.menuempstl:hover{
+    background-color: #7657ee;
+    color: white;
+    border-radius: 1rem
+}
+
+.menuuserstl{
+    color: #050505;
+    font-weight: bold;
+    font-size: 1.2rem;
+;
+}
+
+.menuuserstl:hover{
+    background-color: #7657ee;
+    color: white;
+    border-radius: 1rem;
+}

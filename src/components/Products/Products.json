@@ -1,0 +1,34 @@
+{
+    "productsList": {
+        "Solar panels": {
+            "image": "../../../products/solarpanels.jpg",
+            "price": "$3,999",
+            "Description": " Affordable solar panels for eco-friendly energy generation, saving you money while reducing your carbon footprint."
+        },
+        "Solar Thermal Systems": {
+            "image": "../../../products/solarthermalsystems.jpg",
+            "price": " $4,499",
+            "Description": " Solar thermal solutions for efficient water and space heating, providing comfort and sustainability."
+        },
+        "Solar Monitoring Systems": {
+            "image": "../../../products/solarmonitoringsystems.png",
+            "price": "$299",
+            "Description": "  Real-time monitoring to track your solar energy production and optimize your savings effortlessly."
+        },
+        "Solar Heaters": {
+            "image": "../../../products/solarheaters.jpg",
+            "price": " $1,299",
+            "Description": " Solar-powered water and space heaters for cost-effective, eco-conscious heating solutions."
+        },
+        "Inverters": {
+            "image": "../../../products/inverter.jpg",
+            "price": "$699",
+            "Description": "Affordable and reliable inverters to convert solar energy for use in your home or business, ensuring seamless energy conversion."
+        },
+        "Electric Vehicle (EV) Charging Stations": {
+            "image": "../../../products/evcharginstation.jpg",
+            "price": "$6,900",
+            "Description": "Some companies expand their offerings to include EV charging infrastructure."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "Serviceslist": {
+        "Solar Panel Insalltion": {
+            "img": "../../../services/installation100.png",
+            "desc": "Ensure a seamless transition to solar energy with our expert installation services, tailored to your unique energy needs."
+        },
+        "Solar Panel Maintenance": {
+            "img": "../../../services/maintennace96.png",
+            "desc": "Keep your solar investment at its peak performance with our maintenance and repair services, ensuring longevity and efficiency."
+        },
+        "Solar Thermal Heating": {
+            "img": "../../../services/thermalheating100.png",
+            "desc": "Harness the sun's power to heat your water sustainably with our solar thermal solutions for homes and businesses."
+        },
+        "Solar Monitoring Services": {
+            "img": "../../../services/monitoring96.png",
+            "desc": "Track and enhance your solar system's performance with our monitoring and optimization services for optimal efficiency."
+        },
+        "Solar Energy Consultation": {
+            "img": "../../../services/consulation64.png",
+            "desc": "From initial feasibility studies to system design, our experts guide you through the solar transition with precision."
+        },
+        "Energy Efficiency Upgrades": {
+            "img": "../../../services/energyefficientupgrade96.png",
+            "desc": "Complement your solar setup with energy-efficient products and services to maximize your energy savings."
+        },
+        "Financing and Leasing": {
+            "img": "../../../services/fianncingnleasing100.png",
+            "desc": "Explore flexible financing and leasing plans to make solar adoption affordable and hassle-free."
+        },
+        "EV Charging Station Installation": {
+            "img": "../../../services/evcharge64.png",
+            "desc": "Join the electric vehicle revolution with our EV charging station installations, supporting clean transportation."
+        }
+    }
+}

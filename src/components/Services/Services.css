@@ -1,0 +1,62 @@
+.servcsstl{
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4c0491;
+    text-align: center;
+}
+
+.pngiconsstl{
+    height: 6rem;
+    width: 6rem;
+}
+
+.servediv{
+    /* width: 100%; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0.1rem;
+    border: 0.5px solid #edecec;
+    @media  (max-width:759px){
+        width: 98%;   
+    }
+    @media (min-width:760px) and (max-width:1199px) {
+        width: 48%;
+    }
+    @media (min-width:1200px) {
+        width: 25%;
+    }
+}
+
+.servicessec{
+    /* width: 100%; */
+    flex-direction: row;
+    padding:1rem ;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servtlestl{
+    color: #4c0491;
+}
+
+
+.servparastl{
+    color: #898282;
+    font-size: 0.92rem;
+    text-align: justify;
+}
+
+.anime{
+    animation: fadeInn 5s infinite;
+}
+
+@keyframes fadeInn {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}

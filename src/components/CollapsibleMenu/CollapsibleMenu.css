@@ -1,0 +1,54 @@
+.collapsible-menu {
+    width: 80px; /* Adjust the width as needed */
+    height: 90%;
+    position: fixed;
+    /* top: 50px; Adjust the top position to account for the navbar */
+    left: 0;
+    background-color: #4c0491;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: width 0.3s;
+    padding-top: 10px; /* Add padding to the top */
+  }
+  
+  .collapsible-menu:hover {
+    width: auto; /* Expand the menu width on hover to fit content */
+
+    && a .menu-label{
+        display: block;
+    }
+  }
+  
+  .collapsible-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px; /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .collapsible-menu a .menu-label {
+    margin-left: 10px; /* Add margin between icon and label */
+    display: none;
+  }
+  
+  .collapsible-menu a:hover {
+    background-color: #eae1f3;
+  }
+  
+  .collapsible-menu .active {
+    background-color: #6f4caf;
+  }
+  
+
+  .menu-footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    color: #ccc;
+    border-top: 1px solid #555;
+  }
+  

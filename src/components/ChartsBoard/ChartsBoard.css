@@ -1,0 +1,13 @@
+.chartDiv{
+  width: 30%;
+  border: 1px solid grey;
+  margin: 0 1rem;
+  padding: .8rem;
+  border-radius: 1rem;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.chartTitle{
+  text-decoration: underline;
+  text-align: center;
+}

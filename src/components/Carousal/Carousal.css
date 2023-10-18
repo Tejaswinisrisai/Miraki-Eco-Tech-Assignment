@@ -1,0 +1,48 @@
+/* .carousalitemstleone{
+ 
+    background-image: url("../../images/head-images/solar1.jpg");
+    height: 90vh;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+    opacity: 100% #0c0138 ;
+}
+
+.carousalitemstletwo{
+    background-image: url("../../images/head-images/solar2.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100% #0c0138 ;
+
+}
+
+.carousalitemstlethree{
+    background-image: url("../../images/head-images/solar3.jpg");
+    height:90vh;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    opacity: 100% #0c0138 ;
+  
+}
+
+.headtxtstl{
+    padding-top: 15rem;
+ 
+    text-align: center;
+    color: rgb(40, 4, 63);
+}
+
+.headtle{
+
+font-weight: bold;
+}
+
+.headp{
+font-size: 1.5rem;
+}
+
+.headtxtstl:nth-child(even)
+{
+    color: #0c0138;
+} */

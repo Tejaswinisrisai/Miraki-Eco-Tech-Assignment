@@ -1,0 +1,73 @@
+import React from "react";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
+import { Bar } from "react-chartjs-2";
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
+const generateRandomData = () => {
+  const labels = [
+    "Online",
+    "In-Store",
+    "Phone",
+    "Referrals",
+    "Email",
+    "Social Media",
+    "Other",
+  ];
+  const acquisitionData = labels.map(
+    () => Math.floor(Math.random() * 200) + 100
+  );
+
+  return {
+    labels,
+    datasets: [
+      {
+        label: "Customer Acquisition",
+        data: acquisitionData,
+        backgroundColor: "rgba(54, 162, 235, 0.5)",
+      },
+    ],
+  };
+};
+
+const BC = () => {
+  const options = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "top",
+      },
+      title: {
+        display: true,
+        text: "Customer Acquisition by Channel",
+      },
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        maxTicksLimit: 10,
+      },
+    },
+  };
+
+  const data = generateRandomData();
+
+  return <Bar options={options} data={data} />;
+};
+
+export default BC;

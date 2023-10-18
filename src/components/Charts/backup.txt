@@ -1,0 +1,89 @@
+import React from "react";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
+import { Line } from "react-chartjs-2";
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
+const generateRandomData = () => {
+  const labels = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+  ];
+  const salesData = labels.map(() => Math.floor(Math.random() * 500) + 500);
+  const revenueData = labels.map(() => Math.floor(Math.random() * 800) + 200);
+
+  return {
+    labels,
+    datasets: [
+      {
+        label: "Sales",
+        data: salesData,
+        borderColor: "rgb(255, 99, 132)",
+        backgroundColor: "rgba(255, 99, 132, 0.5)",
+      },
+      {
+        label: "Revenue",
+        data: revenueData,
+        borderColor: "rgb(53, 162, 235)",
+        backgroundColor: "rgba(53, 162, 235, 0.5)",
+      },
+    ],
+  };
+};
+
+const LC = () => {
+  const options = {
+    responsive: true,
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+    },
+    plugins: {
+      legend: {
+        position: "top",
+      },
+      title: {
+        display: true,
+        text: "Sales Trends Over Time",
+      },
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        maxTicksLimit: 100,
+      },
+    },
+  };
+
+  const data = generateRandomData();
+
+  return (
+    <div style={{ height: "300px" }}>
+      <Line options={options} data={data} />;
+    </div>
+  );
+};
+
+export default LC;

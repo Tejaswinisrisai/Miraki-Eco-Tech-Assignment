@@ -1,0 +1,13 @@
+.labelstl{ margin-top: 2rem }
+
+
+.formposstl{
+  
+    @media (min-width:1024px) {
+        margin-left: 25%;
+    }
+}
+
+.frmbtnstl{
+    background-color: #4c0491;
+}

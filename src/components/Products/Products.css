@@ -1,0 +1,68 @@
+.products{
+    /* height: 78vh; */
+    background-color: #ece0f7;
+}
+
+.prdheadstl{
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4c0491;
+    text-align: center;
+}
+
+.sybstl{
+    color: rgb(151, 149, 149);
+}
+
+.descstl{
+    font-size: 0.8rem;
+    color: rgb(151, 149, 149);
+padding-top:1rem;
+}
+
+.cardCustom:hover{
+    /* scale: 1.05; */
+    cursor: pointer;
+    z-index: 100;
+
+}
+
+.cardCustom{
+padding: 1rem;
+margin: .5rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+@media  (max-width:759px){
+    width: 98%;   
+}
+@media (min-width:760px) and (max-width:1199px) {
+    width: 48%;
+}
+@media (min-width:1200px) {
+    width: 31%;
+}
+} 
+
+.cardcstmstl{
+        flex-direction: row;
+        padding:1rem ;
+        background-color: #ece0f7;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.crdimgstl{
+    height: 260px;
+    width: auto;
+    
+}
+
+.fade-in-image { animation: fadeIn 5s infinite; }
+
+
+
+@keyframes fadeIn {
+    0% { scale: .9; }
+    50% { scale: 1.01; }
+    100% { scale: .9; }
+  }
